@@ -103165,7 +103165,7 @@ function (_Component) {
     value: function getMessage() {
       var _this2 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("http://localhost:8080/api/test", {}).then(function (res) {
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("/api/test", {}).then(function (res) {
         var messages = res.data;
 
         _this2.setState({

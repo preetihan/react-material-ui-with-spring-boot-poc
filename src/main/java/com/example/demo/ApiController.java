@@ -8,6 +8,6 @@ public class ApiController {
 
     @GetMapping("/api/test")
     public String test() {
-        return "Hello from server side!";
+        return "Hello from server side!!";
     }
 }

@@ -12,7 +12,7 @@ export default class Messages extends Component {
 
     getMessage() {
         axios
-            .get(`http://localhost:8080/api/test`, {})
+            .get(`/api/test`, {})
             .then(res => {
                 const messages = res.data
                     this.setState({
